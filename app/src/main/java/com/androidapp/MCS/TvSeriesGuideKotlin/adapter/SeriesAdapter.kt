@@ -11,6 +11,12 @@ import com.androidapp.MCS.TvSeriesGuideKotlin.model.Series
 import com.squareup.picasso.Picasso
 
 class SeriesAdapter(val search:List<Series>) : RecyclerView.Adapter<SeriesAdapter.ViewHolder>(){
+companion object {
+    val IMDBID = "imdb key"
+    val TITLEID = "title key"
+    val FAVBUTTON = "fav_button"
+}
+
 
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): SeriesAdapter.ViewHolder {
         val view = LayoutInflater.from(p0.context).inflate(R.layout.main_list_item,p0,false)

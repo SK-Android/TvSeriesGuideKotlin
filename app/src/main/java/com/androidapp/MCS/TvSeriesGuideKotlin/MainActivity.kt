@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        main_rv.layoutManager = GridLayoutManager(this, 2) as RecyclerView.LayoutManager?
+        main_rv.layoutManager = GridLayoutManager(this, 2)
         val itemDecor = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         main_rv.addItemDecoration(itemDecor)
 
