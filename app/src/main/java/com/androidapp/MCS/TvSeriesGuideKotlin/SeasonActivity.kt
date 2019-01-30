@@ -68,12 +68,12 @@ class SeasonActivity : AppCompatActivity() {
             //***********************
             FLAG = 1
             val seasonNo = adapter.getItem(position).itemId
-            val intent1 = Intent(this@SeasonActivity, EpisodeActivity::class.java)
-            intent1.putExtra(SERIESID, imdbID)
-            intent1.putExtra(SEASONID, seasonNo)
-            Toast.makeText(this@SeasonActivity, "You selected\tSeason: $seasonNo\tof\t$seriesTitle", Toast.LENGTH_LONG)
-                .show()
-            this@SeasonActivity.startActivityForResult(intent1, SEASON_KEY)
+//            val intent1 = Intent(this@SeasonActivity, EpisodeActivity::class.java)
+//            intent1.putExtra(SERIESID, imdbID)
+//            intent1.putExtra(SEASONID, seasonNo)
+//            Toast.makeText(this@SeasonActivity, "You selected\tSeason: $seasonNo\tof\t$seriesTitle", Toast.LENGTH_LONG)
+//                .show()
+//            this@SeasonActivity.startActivityForResult(intent1, SEASON_KEY)
         }
 
     }

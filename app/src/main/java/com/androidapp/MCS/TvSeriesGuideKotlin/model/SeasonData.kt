@@ -24,8 +24,8 @@ class SeasonData {
 
 
      fun addItem(item: Seasons) {
-        seasonsList.add(item)
-        seasonsMap.put(item.itemId,item)
+//        seasonsList.add(item)
+//        seasonsMap.put(item.itemId,item)
 
     }
 }
